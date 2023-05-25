@@ -15,5 +15,5 @@ public class PositiveNegativeZero {
         } else {
             System.out.println("0!"); 
         }
-    }
+    } // end checkNumber()
 }

@@ -17,12 +17,12 @@ public class SpeedConverter {
             // return -1 is negative value
             return -1;
         }
-    }
+    } // end toMilesPerHour()
 
     // method for printing conversion
     public static void printConversion(double kilometersPerHour) {
         double m = toMilesPerHour(kilometersPerHour);
 
         System.out.println(kilometersPerHour + "km/h = " + m + "mi/h");
-    }
+    } // end printConversion()
 }
